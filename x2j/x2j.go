@@ -7,7 +7,7 @@
 package x2j
 
 import (
-	. "github.com/clbanning/mxj"
+	. "github.com/karthick18/mxj"
 	"io"
 )
 

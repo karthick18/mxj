@@ -1,6 +1,6 @@
 package mxj
 
-// Per: https://github.com/clbanning/mxj/issues/37#issuecomment-278651862
+// Per: https://github.com/karthick18/mxj/issues/37#issuecomment-278651862
 var fieldSep string = ":"
 
 // SetFieldSeparator changes the default field separator, ":", for the

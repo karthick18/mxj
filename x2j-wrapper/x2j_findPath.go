@@ -8,7 +8,7 @@ package x2j
 import (
 	"strings"
 
-	"github.com/clbanning/mxj"
+	"github.com/karthick18/mxj"
 )
 
 //----------------------------- find all paths to a key --------------------------------

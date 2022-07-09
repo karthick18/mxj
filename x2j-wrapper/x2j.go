@@ -7,7 +7,7 @@
    Unmarshal dynamic / arbitrary XML docs and extract values (using wildcards, if necessary).
    THIS IS ONLY PROVIDED TO FACILIATE MIGRATING TO "mxj" PACKAGE FROM "x2j" PACKAGE.
 
-   NOTICE: 03mar18, package mostly replicates github.com/clbanning/x2j using github.com/clbanning/mxj
+   NOTICE: 03mar18, package mostly replicates github.com/clbanning/x2j using github.com/karthick18/mxj
                     (Note: there is no concept of Node or Tree; only direct decoding to map[string]interface{}.)
 
    One useful function is:
@@ -81,7 +81,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/clbanning/mxj"
+	"github.com/karthick18/mxj"
 )
 
 // If X2jCharsetReader != nil, it will be used to decode the doc or stream if required

@@ -27,7 +27,7 @@ func TestStakeCase(t *testing.T) {
 		t.Fatal(string(x), "!=", data2)
 	}
 
-	// Use-case from: https://github.com/clbanning/mxj/pull/33#issuecomment-273724506
+	// Use-case from: https://github.com/karthick18/mxj/pull/33#issuecomment-273724506
 	data1 = `<rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:junos="http://xml.juniper.net/junos/11.2R4/junos" message-id="97741fa3-99e8-46ba-b103-bab6b459d884">
 <software-information>
 <host-name>srx100</host-name>

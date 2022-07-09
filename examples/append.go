@@ -1,4 +1,4 @@
-// Per https://github.com/clbanning/mxj/issues/34
+// Per https://github.com/karthick18/mxj/issues/34
 
 package main
 
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/clbanning/mxj"
+	"github.com/karthick18/mxj"
 )
 
 var data = []byte(`

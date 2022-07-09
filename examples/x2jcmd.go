@@ -1,5 +1,5 @@
-// Per: https://github.com/clbanning/mxj/issues/24
-// Per: https://github.com/clbanning/mxj/issues/25
+// Per: https://github.com/karthick18/mxj/issues/24
+// Per: https://github.com/karthick18/mxj/issues/25
 
 package main
 
@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"github.com/clbanning/mxj/x2j"
+	"github.com/karthick18/mxj/x2j"
 )
 
 func main() {

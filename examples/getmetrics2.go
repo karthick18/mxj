@@ -39,7 +39,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/clbanning/mxj"
+	"github.com/karthick18/mxj"
 	"log"
 	"os"
 	"sort"

@@ -43,7 +43,7 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/clbanning/mxj"
+	"github.com/karthick18/mxj"
 	"io"
 )
 

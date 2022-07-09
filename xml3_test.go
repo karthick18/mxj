@@ -11,7 +11,7 @@ func TestXml3(t *testing.T) {
 	fmt.Println("\n------------ xml3_test.go")
 }
 
-// for: https://github.com/clbanning/mxj/pull/26
+// for: https://github.com/karthick18/mxj/pull/26
 func TestOnlyAttributes(t *testing.T) {
 	fmt.Println("========== TestOnlyAttributes")
 	dom, err := NewMapXml([]byte(`

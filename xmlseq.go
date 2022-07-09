@@ -348,7 +348,7 @@ func xmlSeqToMapParser(skey string, a []xml.Attr, p *xml.Decoder, r bool) (map[s
 			if skey == "" {
 				// per Adrian (http://www.adrianlungu.com/) catch stray text
 				// in decoder stream -
-				// https://github.com/clbanning/mxj/pull/14#issuecomment-182816374
+				// https://github.com/karthick18/mxj/pull/14#issuecomment-182816374
 				// NOTE: CharSetReader must be set to non-UTF-8 CharSet or you'll get
 				// a p.Token() decoding error when the BOM is UTF-16 or UTF-32.
 				continue

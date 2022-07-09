@@ -1,11 +1,11 @@
-// https://github.com/clbanning/mxj/issues/17
+// https://github.com/karthick18/mxj/issues/17
 
 package main
 
 import (
 	"bytes"
 	"fmt"
-	"github.com/clbanning/mxj"
+	"github.com/karthick18/mxj"
 	"io"
 )
 
