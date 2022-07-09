@@ -1299,6 +1299,20 @@ func marshalMapToXmlIndent(doIndent bool, b *bytes.Buffer, key string, value int
 			elen = len(v)
 			if elen > 0 {
 				// *s += ">" + v
+				// check if namespace attribute needs to be added
+				if strings.HasPrefix(v, "xmlns") {
+					parts := strings.Split(v, " ")
+					if len(parts) > 1 {
+						nsAttrs := strings.Split(parts[0], "=")
+						if len(nsAttrs) == 2 {
+							v = strings.Join(parts[1:], " ")
+							if _, err = b.WriteString(` ` + nsAttrs[0] + `="` + nsAttrs[1] + `"`); err != nil {
+								return err
+							}
+						}
+					}
+				}
+
 				if _, err = b.WriteString(">" + v); err != nil {
 					return err
 				}
